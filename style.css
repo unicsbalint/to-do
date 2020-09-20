@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(49,165,240);
+background: radial-gradient(circle, rgba(49,165,240,1) 0%, rgba(153,220,255,1) 98%);
+
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+header,form{
+margin-top: 6%;
+text-align: center;
+min-height: 10px;
+justify-content: center;
+align-items: center;
+}
+.to-do-container{
+    display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+form input, form button{
+    padding: 14px;
+    font-size: 20px;
+    border: none;  
+    margin: 0px;
+}
+form button{
+color:rgb((177, 52, 3));
+cursor: pointer;
+transition: all;
+}
+.to-do-list{
+    margin-top: 30px; 
+}
