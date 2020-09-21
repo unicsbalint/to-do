@@ -1,6 +1,13 @@
 
 ###Functional specification###
 
+#Introduction
+Our goal is to make a one of a kind To-Do list. 
+It’s a well-known thing that our brain can only manage several things even in young age and this only gets worse as you age. 
+A To-Do list can help your remember tasks, meetings, deadlines and so on. 
+Benefits are endless. 
+
+
 # Goals of the system:
 
 # Description of the current state:
