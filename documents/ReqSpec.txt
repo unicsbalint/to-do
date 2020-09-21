@@ -1,0 +1,32 @@
+Description of the current state:
+
+Nowadays there are nearly infinite ways to track our actions. Many of which has the same issue, like boring design, 
+extremely slow startup or the countless amount of useless features. These apps usually forces you to register to use their product.
+Some of these softwares are targeting big companies and teams instead of the small ones, so these people will struggle using apps made for teams of 100s.
+
+
+Description of the desired system:
+
+A simple web application in which the users can manage their tasks.
+The application will grab the very core of a task managing system therefore increasing efficiency, and will display it in a user-friendly way.
+The app can be run without connection to the internet.
+The users will be able to add new tasks to the list, complete them and remove the tasks from the list.
+They will have the oppurtunity to print these goals.
+When adding a new task the users can set deadlines on them.
+The users will be able to register to the application with a username and password combination
+and after a successful login they will see their name on their tasks and their tasks will be saved.
+
+
+List of requirements:
+
+ID  Name 			 Explanation
+--------------------------------------------------------------------------
+R1; User-friendly display;	 Simplified and easy-to-use design
+R2; Add tasks;		 	 The user can add a new task
+R3; Remove tasks;		 The user can remove a task
+R4; Complete tasks;		 The application will handle if the user completes a task
+R5; Print tasks;		 The users will be able to print their tasks
+R6; Register user;		 The application will have a way to register the users
+R7; Login user;			 Registered users can login
+R8; Save tasks;		 	 The application will save the tasks if the user is logged in
+R9; Efficiency;			 The app loads and functions in a quick and resource-friendly way
