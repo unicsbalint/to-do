@@ -36,3 +36,22 @@ toDoList.appendChild(toDoDiv);
 toDoInput.value = "";
     }
 }
+
+
+//törlés és kész gombok 
+function DeleteCheck(event)
+//benne van a done is
+{
+const item = event.target;
+if (item.classList[0] === "deleteButton")
+{
+    const azegesztodo = item.parentElement; //muszaj a parent elementet torolni mert különben csak a gomb torlodik.
+    azegesztodo.remove();
+}
+if(item.classList[0] === "doneButton")
+{
+    const azegesztodo = item.parentElement;
+    azegesztodo.classList.toggle("done");
+}
+
+}
