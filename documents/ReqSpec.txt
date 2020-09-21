@@ -15,6 +15,20 @@ When adding a new task the users can set deadlines on them.
 The system will grant opportunity to the users to register themselves
 and save their tasks.
 
+Model of the current business process:
+
+With the improvement of technology, the simple apps contains unnecessary features too, which slows them down and
+make their design become overcrowded with buttons and functions. An avarage person wastes a lot of time browsing
+feautures they will not use. 
+
+
+Model of the desired business process:
+
+In our app the user can register on the main page using their username and password. After the registartion the user
+will be able to login using the same combination. After the user logged in, they will be granted access to the 
+application's features. The registered user can manage their tasks or print them. The tasks will have a description,
+deadline and they will be saved to a database.   
+
 
 List of requirements:
 
@@ -31,4 +45,5 @@ R8; Save tasks;		 	 The application will save the tasks if the user is logged in
 R9; Efficiency;			 The app loads and functions in a quick and resource-friendly way
 
 Glossary:
-Database: An organized collection of data
+Database: An organized collection of data.
+Web application: An application that runs on the web browser.
