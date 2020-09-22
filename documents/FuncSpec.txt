@@ -38,6 +38,11 @@ N/A
 # List of requirements:
 
 # Cases of use:
+    -USER :
+                    - Can add things to list and store them either in a database or locally if the user decides to use offline mode.
+                    - Can mark items in the list as already done or can remove it completely.
+                    - Can change personal data. (Email address, password)
+                    - Can remove the account permanently with all of the stored data.
 
 # Compliance:
 
