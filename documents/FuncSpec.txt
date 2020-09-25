@@ -9,6 +9,7 @@ Benefits are endless.
 
 
 # Goals of the system:
+We would like to make a simple web application that offers a clean and elegant look and functions quickly.
 
 # Description of the current state:
 //copied from ReqSpec
