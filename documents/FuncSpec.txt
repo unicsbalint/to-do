@@ -33,14 +33,40 @@ N/A
 
 # Model of the current business process:
 
+//copied from ReqSpec.
+With the improvement of technology, the simple apps contains unnecessary features too, which slows them down and
+make their design become overcrowded with buttons and functions. An avarage person wastes a lot of time browsing
+feautures they will not use.
+
 # Model of the required business process:
+
+//copied from ReqSpec.
+In our app the user can register on the main page using their username and password. After the registartion the user
+will be able to login using the same combination. After the user logged in, they will be granted access to the 
+application's features. The registered user can manage their tasks or print them. The tasks will have a description,
+deadline and they will be saved to a database.   
+
 
 # List of requirements:
 
+ID  Name 			 Explanation
+--------------------------------------------------------------------------
+R1; User-friendly display;	 Simplified and easy-to-use design
+R2; Add tasks;		 	 The user can add a new task
+R3; Remove tasks;		 The user can remove a task
+R4; Complete tasks;		 The application will handle if the user completes a task
+R5; Print tasks;		 The users will be able to print their tasks
+R6; Register user;		 The application will have a way to register the users. The users will be saved to a database
+R7; Login user;			 Registered users can login with their username and password combination
+R8; Save tasks;		 	 The application will save the tasks if the user is logged in
+R9; Efficiency;			 The app loads and functions in a quick and resource-friendly way
+
+
 # Cases of use:
     -USER :
-                    - Can add things to list and store them either in a database or locally if the user decides to use offline mode.
+                    - Can add things to list and store them.
                     - Can mark items in the list as already done or can remove it completely.
+		    - Can print their goals.
                     - Can change personal data. (Email address, password)
                     - Can remove the account permanently with all of the stored data.
 
@@ -48,7 +74,13 @@ N/A
 
 # Screen designs:
 
+We want our web application to look simple by placing function buttons in a breezy manner.
+
 # Scenarios:
+
+Bob wants to write his life goals to somewhere. He finds our web application and starts to write them down.
+He wants to come back if he finds new goals, so he registered and logged in. Then he don't have to worry
+because his goals will be stored, and his data will be safely handled.
 
 # Function - requirement matching
 
