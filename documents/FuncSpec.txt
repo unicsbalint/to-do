@@ -21,7 +21,6 @@ Some of these softwares are targeting big companies and teams instead of the sma
 //copied from ReqSpec.
 A simple web application in which the users can manage their tasks.
 The application will grab the very core of a task managing system therefore increasing efficiency, and will display it in a user-friendly way.
-The app can be run without connection to the internet.
 The users will be able to add new tasks to the list, complete them and remove the tasks from the list.
 They will have the oppurtunity to print these goals.
 When adding a new task the users can set deadlines on them.
