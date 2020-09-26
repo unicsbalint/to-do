@@ -98,6 +98,8 @@ because his goals will be stored, and his data will be safely handled.
 Bob easily forgets his daily tasks, so He wants to write them down, but He don't want to use pen and paper for that, so he goes up to web, search for a solution which is our to-do app.
 
 # Function - requirement matching
+We can match the requirements with the functions since it's a simple app and we have all the tools to get the project done: PHP for Back-End ,MySql - for database and HTML,CSS,JS for the Front-end.
+
 
 # Concept dictionary
 PHP: 	It's a programming language that is usually processed on a web server.
