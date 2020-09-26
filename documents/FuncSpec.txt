@@ -71,6 +71,19 @@ R9; Efficiency;			 The app loads and functions in a quick and resource-friendly 
                     - Can remove the account permanently with all of the stored data.
 
 # Compliance:
+Add tasks: 		There will be a button, when the user clicks on it the task will be created.
+
+Remove tasks:  		When a task is created, the user can decide if they want to keep it or remove it. The user will have a button to remove
+	       		the task.
+
+Complete tasks 		When the user finish their task, there will be a button to mark it as done.
+
+Print tasks:		There will be a button to print all the tasks.
+
+User management:	The system will have a registration and login panel. The user can register and then login.
+
+Save tasks:		Once the user logged in, the system save the tasks and their status automatically.
+
 
 # Screen designs:
 
