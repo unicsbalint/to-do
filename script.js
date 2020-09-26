@@ -55,3 +55,24 @@ if(item.classList[0] === "doneButton")
 }
 
 }
+
+//nyomtatas
+function printContent(){
+    let restorePage = document.body.innerHTML; //elmenti az eredeti weboldalt, hogy aztán vissza lehessen állítani az eredetire
+    let deleteGombokElrejtese = document.querySelectorAll('.deleteButton');
+    for (i = 0; i < deleteGombokElrejtese.length; i++) {
+        deleteGombokElrejtese[i].classList.add('rejtett'); //hozzaad egy classt a delete gombhoz, hogy aztan css-ben elrejthesd
+      }
+    
+      let doneButtonAtiras = document.querySelectorAll('.doneButton');
+      for (i = 0; i < doneButtonAtiras.length; i++){
+        doneButtonAtiras[i].innerHTML = " "
+      }
+      
+    //DeleteHide.style.display = 'none';
+    //completeHide.innerHTML = " "
+    var Print = document.querySelector('.to-do-list').innerHTML;
+    document.body.innerHTML = Print;
+    window.print();
+    document.body.innerHTML = restorePage;
+}

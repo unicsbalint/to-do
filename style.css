@@ -67,3 +67,17 @@ flex: 1;
     text-decoration: line-through;
     opacity: 0.4;
 }
+
+.nyomtatas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nyomtatas button{
+    padding: 10px;
+    text-align: center;
+    margin: none;
+}
+.rejtett{
+    display: none;
+}
