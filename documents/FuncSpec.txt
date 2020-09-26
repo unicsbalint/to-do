@@ -98,3 +98,7 @@ because his goals will be stored, and his data will be safely handled.
 # Function - requirement matching
 
 # Concept dictionary
+PHP: 	It's a programming language that is usually processed on a web server.
+HTML:	It's a document that is designed to be displayed on the web browser.
+CSS: 	It's a document which affect the webpage's design.
+
