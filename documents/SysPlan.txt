@@ -1,0 +1,26 @@
+
+###System plan###
+
+#Goal of the system:
+
+#Project plan:
+
+#Business use case model:
+
+#Requirements:
+
+#Functional plan:
+
+#Physical environment:
+
+#Architectural plan:
+
+#Database plan:
+
+#Implementation plan:
+
+#Test plan:
+
+#Installation plan:
+
+#Maintenance plan:
