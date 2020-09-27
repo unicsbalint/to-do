@@ -30,11 +30,28 @@ https://trello.com/c/7JcdEM9B/5-system-plan
 
 #Physical environment:
 
+ - The app is made for the web platform.
+ - We don't have any purchased component.
+ - Development tools:
+	° Visual Studio Code
+	° XAMPP 
+
 #Architectural plan:
+
+ The system needs a database, where the registered users will be stored. For that we
+ will use MySQL. The register and login operations will be handled by the server. We use PHP
+ to get information from the server and from the database.
+
+ We use Javascript to make complex features possible in our app. The web part is mainly HTML and
+ CSS.
 
 #Database plan:
 
 #Implementation plan:
+
+ The web part mainly be made in HTML, CSS and Javascript. We write these files separately to
+ make it easier to extend and modify. The backend part will use PHP to communicate with the database
+ and with the client.
 
 #Test plan:
 
