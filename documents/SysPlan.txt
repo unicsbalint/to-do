@@ -3,6 +3,10 @@
 
 #Goal of the system:
 
+The goal of the system is to help the people to remember their goals and tasks.
+Nowadays there are many ways to help ourselves when it comes to task managing.
+Most of these are hard-to-use, and that is the reason why we want our system to be simple yet useful.
+
 #Project plan:
 
 #Business use case model:
