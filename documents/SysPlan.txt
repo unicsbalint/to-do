@@ -21,6 +21,9 @@ Backend devs:
 
 #Business use case model:
 
+A model of our desired business use case can be found at the following url:
+https://trello.com/c/7JcdEM9B/5-system-plan
+
 #Requirements:
 
 #Functional plan:
