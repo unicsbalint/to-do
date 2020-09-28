@@ -44,11 +44,9 @@ make it harder to maintain and more difficult to use.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 6. Model of the required business process:
 
-//copied from ReqSpec.
-In our app the user can register on the main page using their username and password. After the registartion the user
-will be able to login using the same combination. After the user logged in, they will be granted access to the 
-application's features. The registered user can manage their tasks or print them. The tasks will have a description,
-deadline and they will be saved to a database.   
+Our goal is to have an app on the internet that is simple, resource-friendly and efficient so it runs on most of the hardwares. This way
+any person who has a computer can keep track of their tasks or goals. The simplistic design will not confuse them so even the elderly can use
+the app. So you can be as productive as possible.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 7. List of requirements:
