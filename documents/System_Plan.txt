@@ -36,6 +36,7 @@ https://trello.com/c/7JcdEM9B/5-system-plan
  - We don't have any purchased component.
  - Development tools:
 	° Visual Studio Code
+	° Notepad++
 	° XAMPP 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
