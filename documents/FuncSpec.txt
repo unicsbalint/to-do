@@ -1,23 +1,24 @@
 
 ###Functional specification###
 
-#Introduction
+1. Introduction
+
 Our goal is to make a one of a kind To-Do list. 
 It’s a well-known thing that our brain can only manage several things even in young age and this only gets worse as you age. 
 A To-Do list can help your remember tasks, meetings, deadlines and so on. 
 Benefits are endless. 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Description of the current state:
 
-# Goals of the system:
-We would like to make a simple web application that offers a clean and elegant look and functions quickly.
-
-# Description of the current state:
 //copied from ReqSpec
 Nowadays there are nearly infinite ways to track our actions. Many of which has the same issue, like boring design, 
 extremely slow startup or the countless amount of useless features. These apps usually forces you to register to use their product.
 Some of these softwares are targeting big companies and teams instead of the small ones, so these people will struggle using apps made for teams of 100s.
 
-# Description of the desired system:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Description of the desired system:
+
 //copied from ReqSpec.
 A simple web application in which the users can manage their tasks.
 The application will grab the very core of a task managing system therefore increasing efficiency, and will display it in a user-friendly way.
@@ -27,18 +28,21 @@ When adding a new task the users can set deadlines on them.
 The users will be able to register to the application with a username and password combination
 and after a successful login they will see their name on their tasks and their tasks will be saved.
 
-# Related laws:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Related laws:
+
 N/A
 
-
-# Model of the current business process:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Model of the current business process:
 
 //copied from ReqSpec.
 With the improvement of technology, the simple apps contains unnecessary features too, which slows them down and
 make their design become overcrowded with buttons and functions. An avarage person wastes a lot of time browsing
 feautures they will not use.
 
-# Model of the required business process:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+6. Model of the required business process:
 
 //copied from ReqSpec.
 In our app the user can register on the main page using their username and password. After the registartion the user
@@ -46,8 +50,8 @@ will be able to login using the same combination. After the user logged in, they
 application's features. The registered user can manage their tasks or print them. The tasks will have a description,
 deadline and they will be saved to a database.   
 
-
-# List of requirements:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+7. List of requirements:
 
 ID  Name 			 Explanation
 --------------------------------------------------------------------------
@@ -61,8 +65,9 @@ R7; Login user;			 Registered users can login with their username and password c
 R8; Save tasks;		 	 The application will save the tasks if the user is logged in
 R9; Efficiency;			 The app loads and functions in a quick and resource-friendly way
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+8. Cases of use:
 
-# Cases of use:
     -USER :
                     - Can add things to list and store them.
                     - Can mark items in the list as already done or can remove it completely.
@@ -70,7 +75,9 @@ R9; Efficiency;			 The app loads and functions in a quick and resource-friendly 
                     - Can change personal data. (Email address, password)
                     - Can remove the account permanently with all of the stored data.
 
-# Compliance:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+9. Compliance:
+
 Add tasks: 		There will be a button, when the user clicks on it the task will be created.
 
 Remove tasks:  		When a task is created, the user can decide if they want to keep it or remove it. The user will have a button to remove
@@ -84,12 +91,13 @@ User management:	The system will have a registration and login panel. The user c
 
 Save tasks:		Once the user logged in, the system save the tasks and their status automatically.
 
-
-# Screen designs:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+10. Screen designs:
 
 We want our web application to look simple by placing function buttons in a breezy manner.
 
-# Scenarios:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+11. Scenarios:
 
 Bob wants to write his life goals to somewhere. He finds our web application and starts to write them down.
 He wants to come back if he finds new goals, so he registered and logged in. Then he don't have to worry
@@ -97,13 +105,17 @@ because his goals will be stored, and his data will be safely handled.
 
 Bob easily forgets his daily tasks, so He wants to write them down, but He don't want to use pen and paper for that, so he goes up to web, search for a solution which is our to-do app.
 
-# Function - requirement matching
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+12. Function - requirement matching
+
 We can match the requirements with the functions since it's a simple app and we have all the tools to get the project done: PHP for Back-End ,MySql - for database and HTML,CSS,JS for the Front-end.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+13. Concept dictionary
 
-# Concept dictionary
 PHP: 	It's a programming language that is usually processed on a web server.
 HTML:	It's a document that is designed to be displayed on the web browser.
 CSS: 	It's a document which affect the webpage's design.
 JavaScript: JavaScript is a programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies(front-end), the others are HTML and CSS.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
