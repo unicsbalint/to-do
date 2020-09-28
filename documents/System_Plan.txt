@@ -44,7 +44,7 @@ https://trello.com/c/7JcdEM9B/5-system-plan
 
  The system needs a database, where the registered users will be stored. For that we
  will use MySQL. The register and login operations will be handled by the server. We use PHP
- to get information from the server and from the database.
+ to get information from the server and from the database. The database is only accessible by the server.
 
  We use Javascript to make complex features possible in our app. The web part is mainly HTML and
  CSS.
