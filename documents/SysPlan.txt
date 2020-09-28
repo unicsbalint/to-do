@@ -1,13 +1,14 @@
 
 ###System plan###
 
-#Goal of the system:
+1. Goal of the system:
 
 The goal of the system is to help the people to remember their goals and tasks.
 Nowadays there are many ways to help ourselves when it comes to task managing.
 Most of these are hard-to-use, and that is the reason why we want our system to be simple yet useful.
 
-#Project plan:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Project plan:
 
 We are making web application using frontend and backend programming. The web applications design and structure
 will be the task for the frontend developers. Backend developers will ensure that the website connects to the database
@@ -18,17 +19,18 @@ Frontend devs:
 
 Backend devs:
 
-
-#Business use case model:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Business use case model:
 
 A model of our desired business use case can be found at the following url:
 https://trello.com/c/7JcdEM9B/5-system-plan
 
-#Requirements:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Requirements:
 
-#Functional plan:
+5. Functional plan:
 
-#Physical environment:
+6. Physical environment:
 
  - The app is made for the web platform.
  - We don't have any purchased component.
@@ -36,7 +38,8 @@ https://trello.com/c/7JcdEM9B/5-system-plan
 	° Visual Studio Code
 	° XAMPP 
 
-#Architectural plan:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+7. Architectural plan:
 
  The system needs a database, where the registered users will be stored. For that we
  will use MySQL. The register and login operations will be handled by the server. We use PHP
@@ -45,16 +48,18 @@ https://trello.com/c/7JcdEM9B/5-system-plan
  We use Javascript to make complex features possible in our app. The web part is mainly HTML and
  CSS.
 
-#Database plan:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+8. Database plan:
 
-#Implementation plan:
+9. Implementation plan:
 
  The web part mainly be made in HTML, CSS and Javascript. We write these files separately to
  make it easier to extend and modify. The backend part will use PHP to communicate with the database
  and with the client.
 
-#Test plan:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+10. Test plan:
 
-#Installation plan:
+11. Installation plan:
 
-#Maintenance plan:
+12. Maintenance plan:
