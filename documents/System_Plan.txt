@@ -55,8 +55,8 @@ https://trello.com/c/7JcdEM9B/5-system-plan
 9. Implementation plan:
 
  The web part mainly be made in HTML, CSS and Javascript. We write these files separately to
- make it easier to extend and modify. The backend part will use PHP to communicate with the database
- and with the client.
+ make it easier to extend and modify. The backend part uses PHP files so we write them separately from
+ the frontend.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 10. Test plan:
