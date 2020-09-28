@@ -31,6 +31,14 @@ https://trello.com/c/7JcdEM9B/5-system-plan
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Requirements:
 
+	- Functional requirements:
+		a, The user can log in, log out and delete his account
+		b, The database stores the users's data
+		c, The users manage their tasks
+	- Non-functional requirements:
+		a, No user will have access to other's data except for their names
+		b, Function buttons will response in short time
+
 5. Functional plan:
 
 6. Physical environment:
