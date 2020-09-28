@@ -14,10 +14,13 @@ We are making web application using frontend and backend programming. The web ap
 will be the task for the frontend developers. Backend developers will ensure that the website connects to the database
 and the functions that uses database connection work.
 
-Frontend devs:
+Frontend developers:
+	- HTML:
+	- CSS:
+	- JavaScript:
 
-
-Backend devs:
+Backend developers:
+	- PHP:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Business use case model:
