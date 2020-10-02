@@ -25,10 +25,10 @@ feautures they will not use.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Model of the desired business process:
 
-In our app the user can register on the main page using their username and password. After the registration the user
-will be able to login using the same combination. After the user logged in, they will be granted access to the 
-application's features. The registered user can manage their tasks or print them. The tasks will have a description,
-deadline and they will be saved to a database.   
+In our app the design will be simple, easy-to-use and friendly. The screen will not be overcrowded with buttons and
+functions. The user can easily complete their task with a button or remove them. The registration process will be
+simple and fast. If the user want to hold their tasks, they will have the opportunity to print them out, so there will 
+be no confusion, just efficient work.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 5. List of requirements:
