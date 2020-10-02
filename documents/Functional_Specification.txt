@@ -71,8 +71,9 @@ R9; Efficiency;			 The app loads and functions in a quick and resource-friendly 
 
     -USER :
                     - Can add things to list and store them.
+		    - Can use the application without registration.
                     - Can mark items in the list as already done or can remove it completely.
-		    - Can print their goals.
+		    - Can print their goals in user friendly way.
                     - Can change personal data. (Email address, password)
                     - Can remove the account permanently with all of the stored data.
 
