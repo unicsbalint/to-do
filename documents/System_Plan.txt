@@ -87,6 +87,11 @@ Delete user | User still exists | The function is not working.
 
 11. Installation plan:
 The app requires to have a web server running because we use PHP, and database in it. For development we use XAMPP, but when the page will be installed it will run on an Apache2 server with MySql.
+I suggest you to use Linux server for installation, because the Maintenance will be easier.
 WARNING! After installation you might have to change some path in the index file.
 
 12. Maintenance plan:
+As it is a very simple app, Maintenance will be really easy, we won't use any special directories, plugins just pure html,css,php,javascript,mysql.
+- In case of server issues: If anything happens to the server (eq: unexpected shutdown) the user information still be stored in the database. But the server should create backup files of the page every 12 hours.
+- In case of update: Before update any component we should create a backup of the whole page.
+
