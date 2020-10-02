@@ -21,7 +21,6 @@ Another issue is if you finally find one action tracker that is simple and it is
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Description of the desired system:
 
-//copied from ReqSpec.
 A simple web application in which the users can manage their tasks.
 The application will grab the very core of a task managing system therefore increasing efficiency, and will display it in a user-friendly way.
 The users will be able to add new tasks to the list, complete them and remove the tasks from the list.
@@ -29,6 +28,8 @@ They will have the oppurtunity to print these goals.
 When adding a new task the users can set deadlines on them.
 The users will be able to register to the application with a username and password combination
 and after a successful login they will see their name on their tasks and their tasks will be saved.
+The application will be completly free to use.
+The application will not force users to register, the app can be used with or without registration.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Related laws:
