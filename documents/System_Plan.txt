@@ -41,6 +41,12 @@ https://trello.com/c/7JcdEM9B/5-system-plan
 
 5. Functional plan:
 
+- The user can add items to the to-do list and can delete them without any issue. For that, we have to use html,javascript, if the user is not registered. If the user is already registered we have to attach php, database to it to store the user's to do.
+- User registration should be clean, evident, fast
+- Every function have to be as efficent as possible for the appropriate user experience.
+- Database should never have any anomaly
+- The design of the app must be eye catching but modern and simple at the same time.
+
 6. Physical environment:
 
  - The app is made for the web platform.
