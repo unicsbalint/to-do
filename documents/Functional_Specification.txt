@@ -11,10 +11,12 @@ Benefits are endless.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 2. Description of the current state:
 
-//copied from ReqSpec
+
 Nowadays there are nearly infinite ways to track our actions. Many of which has the same issue, like boring design, 
 extremely slow startup or the countless amount of useless features. These apps usually forces you to register to use their product.
 Some of these softwares are targeting big companies and teams instead of the small ones, so these people will struggle using apps made for teams of 100s.
+Another issue is if you finally find one action tracker that is simple and it is created for individuals you can be certain that it will be loaded with ads or it won't be free.
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Description of the desired system:
