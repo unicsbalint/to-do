@@ -71,6 +71,13 @@ https://trello.com/c/7JcdEM9B/5-system-plan
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 10. Test plan:
+Our plan is to test each function of our web app by everybody in our team. For that we'll use a scheme that allows us to check if every function works fine. It looks like a spreadsheet.
+The spreadsheet will look like that:
+Function | Result | Comment | 
+*****************************
+For example:
+Add user | User added | It worked good, but a little bit slow, we should work on that.
+Delete user | User still exists | The function is not working.
 
 11. Installation plan:
 
