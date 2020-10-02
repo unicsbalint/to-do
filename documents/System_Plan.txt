@@ -86,5 +86,7 @@ Add user | User added | It worked good, but a little bit slow, we should work on
 Delete user | User still exists | The function is not working.
 
 11. Installation plan:
+The app requires to have a web server running because we use PHP, and database in it. For development we use XAMPP, but when the page will be installed it will run on an Apache2 server with MySql.
+WARNING! After installation you might have to change some path in the index file.
 
 12. Maintenance plan:
