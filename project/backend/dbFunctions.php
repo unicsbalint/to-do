@@ -1,4 +1,4 @@
-<?
+<?php
 
 function databaseConnect() {
     $connection = new PDO('mysql:host=localhost;dbname=todo;','root','');
