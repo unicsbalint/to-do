@@ -8,6 +8,15 @@
             'confirmpassword' => $_POST['confirmpassword']
         ];
     }
+    if (empty($postData['uname']) || empty($postData['email']) || empty($postData['password']) || empty($postData['confirmpassword'])) {
+        echo("Hiányzó adatok");
+    }
+    else if ($postData['password'] != $postData['confirmpassword']) {
+        echo("A jelszavak nem egyeznek");
+    }
+    else if (strlen($postData['password']) < 8) {
+        echo "A jelszó túl rövid! Legalább 8 karakter hosszúnak kell lennie!";
+    }
 
 
 ?>
