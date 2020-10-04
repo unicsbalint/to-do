@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,10 @@
 </head>
 <body>
     <a class="bugreport-button" href="project/backend/bugreport.php">Report bug</a>
+    <div class="userManageButton">
+        <a href="project/backend/register.php">Register</a>
+        <a href="project/backend/login.php">Login</a>
+    </div>
     <h1>NOMAD's To-Do</h1>
     <header>
     <form>

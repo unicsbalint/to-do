@@ -81,3 +81,8 @@ flex: 1;
 .rejtett{
     display: none;
 }
+.userManageButton{
+    width: 150px;
+    background-color: white;
+    border-style: solid;
+}

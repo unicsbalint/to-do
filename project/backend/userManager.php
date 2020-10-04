@@ -17,5 +17,27 @@
                 header('Location: /to-do/index.php');
             }
         }
+        return false;
     }
+
+    function loginUser($username, $password)
+    {
+        $query = 'SELECT id, username, email, password FROM users WHERE username = :username AND password = :password';
+        $params = [
+            ':username' => $username,
+            ':password' => sha1($password)
+        ];
+        require_once 'dbFunctions.php';
+        $record = getRecord($query,$params);
+        if(!empty($record)){
+            $_SESSION['id'] = $record['id'];
+            $_SESSION['username'] = $record['username'];
+            $_SESSION['email'] = $record['email'];
+            $_SESSION['password'] = $record['password'];
+
+            header('Location: /to-do/index.php');
+        }
+        return false;
+    }
+
 ?>
