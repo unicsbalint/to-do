@@ -7,6 +7,7 @@
     <title>To-do</title>
 </head>
 <body>
+    <a class="bugreport-button" href="project/backend/bugreport.php">Report bug</a>
     <h1>NOMAD's To-Do</h1>
     <header>
     <form>
