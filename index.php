@@ -1,33 +1,22 @@
 <?php session_start(); ?>
+<?php require_once 'project/backend/config.php'; ?>
+<?php require_once USER_MANAGER; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="project/frontend/style.css">
     <title>To-do</title>
 </head>
 <body>
-    <a class="bugreport-button" href="project/backend/bugreport.php">Report bug</a>
-    <div class="userManageButton">
-        <a href="project/backend/register.php">Register</a>
-        <a href="project/backend/login.php">Login</a>
+    <div class="container-fluid">
+        <header><?php include_once BACKEND_DIR.'header.php'; ?></header>
+        <nav><?php require_once BACKEND_DIR.'nav.php'; ?></nav>
+        <content><?php require_once BACKEND_DIR.'routing.php'; ?></content>
+        <footer><?php include_once BACKEND_DIR.'footer.php'; ?></footer>
     </div>
-    <h1>NOMAD's To-Do</h1>
-    <header>
-    <form>
-        <input type="text" class="to-do-input" placeholder="What should I do?">
-        <button class="to-do-button" type="submit">Do it!</button>
-    </form>
-    </header>
-    <div class="to-do-container">
-        <ul class="to-do-list">
-           
-        </ul>
-    </div>
-    <div class="nyomtatas">
-        <button  onclick="printContent()">Print my to-do</button>
-    </div>
-    <script src="project/frontend/script.js"></script>
 </body>
 </html>
