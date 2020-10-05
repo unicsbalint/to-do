@@ -13,7 +13,10 @@
             </li>
         <?php else : ?>
             <li class="nav-item">
-            <a class="nav-link <?=$_GET['P'] == 'todo' ? 'active' : ''?>" data-toggle="tab" href="index.php?P=todo">TO-DO List</a>
+                <a class="nav-link <?=$_GET['P'] == 'todo' ? 'active' : ''?>" data-toggle="tab" href="index.php?P=todo">TO-DO List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"href="index.php?P=delete">Delete Account</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link"href="index.php?P=logout">Logout</a>
