@@ -86,3 +86,9 @@ flex: 1;
     background-color: white;
     border-style: solid;
 }
+.bugreport-issue {
+    resize: none;
+}
+.reportbox {
+    margin: 5px;
+}

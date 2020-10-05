@@ -21,6 +21,10 @@
         case 'todo':  
             IsUserLoggedIn() ? require_once BACKEND_DIR.'todo.php' : header('Location: index.php?P=home');
             break;
+        
+        case 'report':
+            require_once BACKEND_DIR.'bugreport.php';
+            break;
 
         case 'delete':  
             IsUserLoggedIn() ? require_once BACKEND_DIR.'user/userDelete.php' : header('Location: index.php?P=home');
