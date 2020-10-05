@@ -16,6 +16,16 @@ function getRecord($queryString, $queryParams = []) {
     return $result;
 }
 
+function getList($queryString, $queryParams = []) {
+    $connection = databaseConnect();
+    $statement = $connection->prepare($queryString);
+    $success = $statement->execute($queryParams);
+    $result = $success ? $statement->fetchAll(PDO::FETCH_ASSOC) : [];
+    $statement->closeCursor();
+    $connection = null;
+    return $result;
+}
+
 function executeDML($queryString, $queryParams = []) {
     $connection = databaseConnect();
     $statement = $connection->prepare($queryString);

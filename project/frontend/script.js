@@ -10,7 +10,7 @@ toDoList.addEventListener("click", DeleteCheck);
 function AddToDo(event)
 {
       //hogy ne frissüljön az oldal
-event.preventDefault();
+//event.preventDefault();
     if(toDoInput.value != "")
     {
        
@@ -33,7 +33,7 @@ deleteButton.classList.add('deleteButton');
 toDoDiv.appendChild(deleteButton);
 //listához adás
 toDoList.appendChild(toDoDiv);
-toDoInput.value = "";
+//toDoInput.value = "";
     }
 }
 
