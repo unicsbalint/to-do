@@ -1,0 +1,35 @@
+Project testing:
+Tester: Horváth Krisztián
+Tested on: 2020. 10. 05.
+Web browser: Microsoft Edge
+--------------------------------------------------------------
+Test #1
+Opening webpage | Pages loaded | No issues
+--------------------------------------------------------------
+Test #2
+Registering users | Registered users saved to database | No issues
+--------------------------------------------------------------
+Test #3
+User login | The login only possible with existing accounts | No issues
+--------------------------------------------------------------
+Test #4
+Add task | The added task got stored in the database and visible | No issues
+--------------------------------------------------------------
+Test #5
+Deletion of tasks | The tasks got removed from the page | The tasks got loaded again after refreshing the page
+--------------------------------------------------------------
+Test #6
+Navigation between pages | The navigation buttons loaded the right pages | No issues
+--------------------------------------------------------------
+Test #7
+Bug report's user detection | The right user's id got into the field | No issues
+--------------------------------------------------------------
+Test #8
+Bug report sending | The bug report got stored in the database | It's possible to send empty reports
+--------------------------------------------------------------
+Test #9
+Print | The print window pop up with the correct format | No issues
+--------------------------------------------------------------
+Test #10
+User deletion | The user's account got removed entirely | No issues
+--------------------------------------------------------------
