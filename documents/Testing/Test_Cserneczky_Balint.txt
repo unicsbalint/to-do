@@ -1,0 +1,58 @@
+Project frontend testing:
+Tester: Cserneczky Bálint
+Tested at: 2020.10.05
+Browser used for test: Google Chrome
+-------------------------------------------------
+Test #1
+Opening the webpage
+
+-------------------------------------------------
+
+Test #2
+Checking if I can add a to-do
+
+-------------------------------------------------
+
+Test #3
+Checking if I can delete a to-do
+
+-------------------------------------------------
+
+Test #4
+Checking if I can get done a to-do
+
+-------------------------------------------------
+
+Test #5
+Checking if I can print my list
+
+-------------------------------------------------
+
+Browser used for test: Microsoft Edge
+
+-------------------------------------------------
+
+Test #1
+Opening the webpage
+
+-------------------------------------------------
+
+Test #2
+Checking if I can add a to-do
+
+-------------------------------------------------
+
+Test #3
+Checking if I can delete a to-do
+
+-------------------------------------------------
+
+Test #4
+Checking if I can get done a to-do
+
+-------------------------------------------------
+
+Test #5
+Checking if I can print my list
+
+-------------------------------------------------
