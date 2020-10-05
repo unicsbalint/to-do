@@ -4,27 +4,27 @@ Tested at: 2020.10.05
 Browser used for test: Google Chrome
 -------------------------------------------------
 Test #1
-Opening the webpage
+Opening the webpage | Webpage loaded | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
 Test #2
-Checking if I can add a to-do
+Checking if I can add a to-do | To-do added successfully | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
 Test #3
-Checking if I can delete a to-do
+Checking if I can delete a to-do | To-do deleted successfully | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
 Test #4
-Checking if I can get done a to-do
+Checking if I can get done a to-do | To-do done successfully, crossed out by CSS | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
 Test #5
-Checking if I can print my list
+Checking if I can print my list | Formalized print done successfully | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
