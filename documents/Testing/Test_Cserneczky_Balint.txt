@@ -28,31 +28,29 @@ Checking if I can print my list | Formalized print done successfully | No JavaSc
 
 -------------------------------------------------
 
+#############################################################################################
+
 Browser used for test: Microsoft Edge
 
--------------------------------------------------
-
-Test #1
-Opening the webpage
+Test #6
+Opening the webpage | Webpage loaded | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
-Test #2
-Checking if I can add a to-do
+Test #7
+Checking if I can add a to-do | To-do added successfully | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
-Test #3
-Checking if I can delete a to-do
+Test #8
+Checking if I can delete a to-do | To-do deleted successfully | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
-Test #4
-Checking if I can get done a to-do
+Test #9
+Checking if I can get done a to-do | To-do done successfully, crossed out by CSS | No JavaScript/Html error occurs
 
 -------------------------------------------------
 
-Test #5
-Checking if I can print my list
-
--------------------------------------------------
+Test #10
+Checking if I can print my list | Formalized print done successfully | No JavaScript/Html error occurs
