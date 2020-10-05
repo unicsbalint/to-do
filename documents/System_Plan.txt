@@ -15,18 +15,18 @@ will be the task for the frontend developers. Backend developers will ensure tha
 and the functions that uses database connection work.
 
 Frontend developers:
-	- HTML:
-	- CSS:
-	- JavaScript:
+	- HTML: Cserneczky Bálint, Erdélyi Roland, Horváth Krisztián, Horváth Péter
+	- CSS: Cserneczky Bálint, Erdélyi Roland, Horváth Krisztián, Horváth Péter
+	- JavaScript: Cserneczky Bálint
 
 Backend developers:
-	- PHP:
+	- PHP: Horváth Péter, Horváth Krisztián, Erdélyi Roland
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Business use case model:
 
 A model of our desired business use case can be found at the following url:
-https://trello.com/c/7JcdEM9B/5-system-plan
+https://github.com/unicsbalint/to-do/blob/master/pictures/business_use_case_model.png
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Requirements:
@@ -68,6 +68,15 @@ https://trello.com/c/7JcdEM9B/5-system-plan
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 8. Database plan:
+
+An imamge of our project's entity-relationship diagram can be found at the following url:
+https://github.com/unicsbalint/to-do/blob/master/pictures/Entity_relationship_diagram.png
+
+In our project we will store the user's data in 3 database tables. One will store the registration information
+of the user, the other two will contain the user's tasks and reports. The users table will contain the following
+attributes: id, username, email address and password. The password attribute will be stored using sha1 encryption.
+The tasks table will have the following attributes: id, uid, task, deadline. The reports table will contain these
+attributes: id and report. We will access the database using PHP.
 
 9. Implementation plan:
 
