@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2020. Okt 03. 15:35
+-- Létrehozás ideje: 2020. Okt 05. 02:56
 -- Kiszolgáló verziója: 10.4.11-MariaDB
--- PHP verzió: 7.4.3
+-- PHP verzió: 7.4.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -57,8 +56,8 @@ CREATE TABLE `tasks` (
 CREATE TABLE `users` (
   `id` int(10) UNSIGNED NOT NULL,
   `username` varchar(50) NOT NULL,
-  `email` varchar(250) NOT NULL,
-  `password` varchar(250) NOT NULL
+  `email_address` varchar(250) NOT NULL,
+  `user_password` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -83,7 +82,7 @@ ALTER TABLE `tasks`
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `username` (`username`),
-  ADD UNIQUE KEY `email` (`email`);
+  ADD UNIQUE KEY `email` (`email_address`);
 
 --
 -- A kiírt táblák AUTO_INCREMENT értéke
