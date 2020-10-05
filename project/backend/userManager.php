@@ -1,41 +1,54 @@
 <?php
-    function registerUser($username, $email, $password) {
-        $query = 'SELECT id FROM users WHERE username = :username';
-        $params = [
-            ':username' => $username
-        ];
-        require_once 'dbFunctions.php';
-        $record = getRecord($query,$params);
-        if (empty($record)) {
-            $query = 'INSERT INTO users(username, email, password) VALUES (:username, :email, :password)';
+    function IsUserLoggedIn() 
+    {
+        return $_SESSION != null && array_key_exists('u_id', $_SESSION) && is_numeric($_SESSION['u_id']);
+    }
+
+    function UserLogout()
+    {
+        session_unset();
+        session_destroy();
+        header('Location: index.php?P=home');
+    }
+
+    function UserRegister($username, $email_address, $user_password)
+    {
+        $query = "SELECT id FROM users email_address = :email_address";
+        $params = [':email_address' => $email_address ];
+
+        require_once DATABASE_CONTROLLER;
+        $record = getRecord($query, $params);
+        if(empty($record))
+        {
+            $query = "INSERT INTO users (username, email_address, user_password) VALUES (:username, :email_address, :user_password)";
             $params = [
                 ':username' => $username,
-                ':email' => $email,
-                ':password' => sha1($password)
+                ':email_address' => $email_address,
+                ':user_password' => sha1($user_password),
             ];
-            if (executeDML($query,$params)) {
-                header('Location: /to-do/index.php');
-            }
+
+            if(executeDML($query, $params)) 
+                header('Location: index.php?P=login');
         }
         return false;
     }
 
-    function loginUser($username, $password)
+    function UserLogin($username, $password)
     {
-        $query = 'SELECT id, username, email, password FROM users WHERE username = :username AND password = :password';
+        $query = 'SELECT id, username, email_address, user_password FROM users WHERE username = :username AND user_password = :user_password';
         $params = [
             ':username' => $username,
-            ':password' => sha1($password)
+            ':user_password' => sha1($password)
         ];
-        require_once 'dbFunctions.php';
+        require_once DATABASE_CONTROLLER;
         $record = getRecord($query,$params);
         if(!empty($record)){
-            $_SESSION['id'] = $record['id'];
+            $_SESSION['u_id'] = $record['id'];
             $_SESSION['username'] = $record['username'];
-            $_SESSION['email'] = $record['email'];
-            $_SESSION['password'] = $record['password'];
+            $_SESSION['email_address'] = $record['email_address'];
+            $_SESSION['user_password'] = $record['password'];
 
-            header('Location: /to-do/index.php');
+            header('Location: index.php?P=home');
         }
         return false;
     }
