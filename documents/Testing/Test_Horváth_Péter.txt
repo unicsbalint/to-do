@@ -1,0 +1,34 @@
+Project testing:
+Tester: Horváth Péter
+Tested on: 2020. 10. 05.
+Web browser used for testing: Mozilla Firefox
+----------------------------------------------------------
+Test #1
+Opening the webpage | Webpage loaded | No issues found.
+----------------------------------------------------------
+Test #2
+Register with no fields filled | Got 'Missing information' error message | The message's design is really simple, might add a frame to it. 
+----------------------------------------------------------
+Test #3
+Register with a 2 letter password | Registration successful | There is no check on password length, should add that.
+----------------------------------------------------------
+Test #4
+Log in to the website | Logged in successfully | No issues found.
+----------------------------------------------------------
+Test #5
+Log out of the website | Logged out successfully | No issues found.
+----------------------------------------------------------
+Test #6
+Delete account | Successfully deleted the account | No issues found.
+----------------------------------------------------------
+Test #7
+Register with wrong email format | Failed to register | No issues found.
+----------------------------------------------------------
+Test #8
+Add a task to the list | Add function works | Added task can be found under the input.
+----------------------------------------------------------
+Test #9
+Complete a task | Task fades out | No issues found.
+----------------------------------------------------------
+Test #10
+Remove a task | Task get removed | No issues found.
