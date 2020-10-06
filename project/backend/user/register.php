@@ -25,6 +25,10 @@
         {
             echo "Passwords do not match!";
         }
+        else if(strlen($postData['user_password'] < 5))
+        {
+            echo "Password too short! Minimum length is 6 characters";
+        }
         else if(!UserRegister($postData['username'], $postData['email_address'], $postData['user_password']))
         {
             echo "Registration failed!";
