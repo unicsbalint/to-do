@@ -1,0 +1,37 @@
+-----------------------Project test-----------------------
+Tester: Erdélyi Roland
+Date of testing: 2020. 10. 06.
+Browser: Safari 14.0
+----------------------------------------------------------
+Test #1 - Frontpage
+    Opening the webpage - Webpage loaded successfully without any issues.✔
+    Different frontpage - Different frontpage based on if the user is logged in or not.✔
+----------------------------------------------------------
+Test #2 - Registration
+    Attempting to register with 
+        an empty field - Missing information.✔
+        two different email address - Email addresses do not match!✔
+        two different passwords - Passwords do not match!✔
+        3 letter passwords - Password too short! Minimum length is 6 characters!✔
+        with proper inputs - Registrated successfully. Data was loaded to the database!✔
+----------------------------------------------------------
+Test #3 - Login
+    Attempting to login with
+        an empty field - Username or password cannot be empty!✔
+        with incorrect password - Username or password is incorrect!✔
+        with proper inputs - Logined successfully, redirected to home page.✔
+----------------------------------------------------------
+Test #4 - Logout
+    Logged out of the website - Logged out successfully without any issues.✔
+----------------------------------------------------------
+Test #5 - Delete account
+    Delete account - Successfully deleted the account from the database and got logged out immediately.✔
+----------------------------------------------------------
+Test #6 - TO-DO List
+    Adding task to the list via input - Added successfully, appeared under the input field.✔
+    Marking added task as done - Task gets faded and crossed out.✔
+    Deleting task from the list - Task gets deleted and disappears.✔
+    Printing tasks - The page changes, leaving only tasks, after that printing window appears and the tasks are ready to be printed.✔
+----------------------------------------------------------
+Conclusion - Every function works properly!✔
+----------------------------------------------------------
